@@ -1,0 +1,165 @@
+{
+    "header": {
+        "style": {
+            "flex": 5,
+            "padding": "12pt",
+            "backgroundColor": "rgb(126,126,126)"
+        },
+        "name": "John Doe",
+        "title": "analyst"
+    },
+    "content": {
+        "style": {
+            "flex": 85,
+            "bodySide": "right"
+        },
+        "body": {
+            "style": {
+                "flex": 70,
+                "padding": "12pt"
+            },
+            "sections": [
+                {
+                    "type": "biblography",
+                    "content": "I am John DOe"
+                },
+                {
+                    "type": "experience",
+                    "title": "Experience",
+                    "experiences": [
+                        {
+                            "title": "Analyst",
+                            "role": "Full stack developer",
+                            "company": "Doe",
+                            "from": "Jan 2019",
+                            "to": "present",
+                            "responsibility": [
+                                "Write website asdasdssdfsdfsdfl kjsdifhslkdfm lksdfnkjdhs ghj ksdfnskld sd,fnskjdhfkjsd ",
+                                "Monitor website status",
+                                "Handle CR"
+                            ]
+                        },
+                        {
+                            "title": "Analyst",
+                            "role": "Full stack developer",
+                            "company": "Doe",
+                            "from": "Jan 2019",
+                            "to": "present",
+                            "responsibility": [
+                                "Write website asdasdssdfsdfsdfl kjsdifhslkdfm lksdfnkjdhs ghj ksdfnskld sd,fnskjdhfkjsd ",
+                                "Monitor website status",
+                                "Handle CR"
+                            ]
+                        }
+                    ],
+                    "style": {
+                        "dateFlex": 30,
+                        "contentFlex": 70
+                    }
+                },
+                {
+                    "type": "education",
+                    "title": "Education",
+                    "educations": [
+                        {
+                            "dateOfCompletetion": "Sep 2019",
+                            "institution": "University of Nowhere",
+                            "attained": "Bachleor of being studied",
+                            "gpa": 3.3,
+                            "major": "Being Studied",
+                            "minor": [
+                                "Invention"
+                            ]
+                        }
+                    ],
+                    "style": {
+                        "dateFlex": 30,
+                        "contentFlex": 70
+                    }
+                }
+            ]
+        },
+        "aside": {
+            "style": {
+                "flex": 30,
+                "backgroundColor": "rgb(126,126,126)",
+                "padding": 8
+            },
+            "sections": [
+                {
+                    "type": "contactInfo",
+                    "title": "Personal Info",
+                    "infos": [
+                        {
+                            "label": "Phone",
+                            "FontAwesomeIcon": "phone",
+                            "value": "+123 9999867"
+                        },
+                        {
+                            "label": "E-mail",
+                            "FontAwesomeIcon": "email",
+                            "value": "johndoe@hotmail.com"
+                        },
+                        {
+                            "label": "LinkedIn",
+                            "FontAwesomeIcon": "linkedin",
+                            "value": "https://linkedin.com"
+                        },
+                        {
+                            "label": "Github",
+                            "FontAwesomeIcon": "github",
+                            "value": "https://github.com"
+                        }
+                    ]
+                },
+                {
+                    "type": "skills",
+                    "title": "Technical Skills",
+                    "skills": [
+                        {
+                            "label": "JS",
+                            "type": "line",
+                            "styleScore": {
+                                "backgroundColor": "rgb(255,255,255)"
+                            },
+                            "styleFull": {
+                                "backgroundColor": "rgb(0,0,0)"
+                            },
+                            "full": 100,
+                            "score": 90
+                        },
+                        {
+                            "label": "Python",
+                            "type": "line",
+                            "styleScore": {
+                                "backgroundColor": "rgb(255,255,255)"
+                            },
+                            "styleFull": {
+                                "backgroundColor": "rgb(0,0,0)"
+                            },
+                            "full": 100,
+                            "score": 87,
+                            "comment": "non native"
+                        }
+                    ]
+                },
+                {
+                    "type": "skills",
+                    "title": "Language",
+                    "skills": [
+                        {
+                            "label": "English",
+                            "type": "none",
+                            "comment": "Fluent"
+                        },
+                        {
+                            "label": "Cantonese",
+                            "type": "none",
+                            "comment": "native"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
