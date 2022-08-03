@@ -73,32 +73,32 @@ export const createHtmlStylesheet = (fontSize: number) => {
 
         h1: {
             fontSize: em(2),
-            marginVertical: em(0.4, em(2)),
+            marginVertical: em(0.3, em(2)),
             fontFamily: 'Helvetica-Bold',
         },
         h2: {
             fontSize: em(1.5),
-            marginVertical: em(0.6, em(1.5)),
+            marginVertical: em(0.5, em(1.5)),
             fontFamily: 'Helvetica-Bold',
         },
         h3: {
             fontSize: em(1.17),
-            marginVertical: em(0.8, em(1.17)),
+            marginVertical: em(0.7, em(1.17)),
             fontFamily: 'Helvetica-Bold',
         },
         h4: {
             fontSize: em(1),
-            marginVertical: em(1.1, em(1)),
+            marginVertical: em(1, em(1)),
             fontFamily: 'Helvetica-Bold',
         },
         h5: {
             fontSize: em(0.83),
-            marginVertical: em(1.4, em(0.83)),
+            marginVertical: em(1.3, em(0.83)),
             fontFamily: 'Helvetica-Bold',
         },
         h6: {
             fontSize: em(0.67),
-            marginVertical: em(2.1, em(0.67)),
+            marginVertical: em(2, em(0.67)),
             fontFamily: 'Helvetica-Bold',
         },
         p: {

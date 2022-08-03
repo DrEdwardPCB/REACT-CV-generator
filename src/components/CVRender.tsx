@@ -142,7 +142,7 @@ export default function CVRender({ value }: { value: string }) {
                     justifyContent: "flex-start",
                     alignItems: "flex-start",
                     flexDirection: "row",
-                    padding: 4,
+                    padding: 2,
                 }}
             >
                 <View style={{ flex: style.dateFlex }}>
@@ -193,9 +193,11 @@ export default function CVRender({ value }: { value: string }) {
                             flexDirection: "row",
                         }}
                     >
-                        <Text style={{ ...html.h4, ...html.i }}>
-                            {`GPA: ${item.gpa}`}
-                        </Text>
+                        {item.gpa && (
+                            <Text style={{ ...html.h4, ...html.i }}>
+                                {`GPA: ${item.gpa}`}
+                            </Text>
+                        )}
                     </View>
                 </View>
             </View>
@@ -222,7 +224,7 @@ export default function CVRender({ value }: { value: string }) {
                         <View
                             style={{
                                 width: "100%",
-                                paddingVertical: 4,
+                                paddingVertical: 2,
                             }}
                         >
                             <View
@@ -255,7 +257,7 @@ export default function CVRender({ value }: { value: string }) {
                         </View>
                     )}
                 {item.comment && (
-                    <Text style={{ paddingTop: 4, paddingBottom: 8 }}>
+                    <Text style={{ paddingTop: 4, paddingBottom: 6 }}>
                         <Text style={html.p}>{item.comment}</Text>
                     </Text>
                 )}
@@ -311,7 +313,7 @@ export default function CVRender({ value }: { value: string }) {
                     justifyContent: "flex-start",
                     alignItems: "flex-start",
                     flexDirection: "column",
-                    padding: 4,
+                    padding: 2,
                 }}
             >
                 <View
